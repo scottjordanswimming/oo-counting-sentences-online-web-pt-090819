@@ -24,7 +24,7 @@ class String
     binding.pry
     x = [".", "!", "?", "!!", "..."]
  
-    self.split(x)
+    self.split(Regexp.union(x))
   
    
   end
