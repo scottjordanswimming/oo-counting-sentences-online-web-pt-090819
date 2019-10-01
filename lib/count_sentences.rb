@@ -24,6 +24,7 @@ class String
     x = (".", "!", "?", "!!", "...")
     binding.pry
     self.split(x)
+    
 
         
    
