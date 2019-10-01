@@ -22,7 +22,7 @@ class String
 
   def count_sentences
     binding.pry
-    x = self.split(".", "!")
+    self.split(".", "!")
         
     x.count
 
