@@ -25,7 +25,7 @@ class String
     x = self.split(".", "!")
     
     x.count
-    
+  binding.pry  
 
   end
 end
