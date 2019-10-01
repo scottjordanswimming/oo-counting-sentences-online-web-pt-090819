@@ -22,7 +22,7 @@ class String
 
   def count_sentences
     x = [".", "!", "?", "!!", "..."]
-    
+    binding.pry
     self.split(x)
     
 
