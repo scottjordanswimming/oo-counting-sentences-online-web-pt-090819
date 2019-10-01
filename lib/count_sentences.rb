@@ -25,7 +25,7 @@ class String
     x = [".", "!", "?", "!!", "??"]
  
     self.split(Regexp.union(x)).reject(&:empty?).count
-  binding.pry
+ 
   
    
   end
