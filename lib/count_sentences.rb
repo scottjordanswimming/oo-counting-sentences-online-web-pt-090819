@@ -21,9 +21,10 @@ class String
   end
 
   def count_sentences
+    x = ()
     binding.pry
     self.split(".")
-    self.split()
+
         
    
 
