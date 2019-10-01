@@ -22,7 +22,7 @@ class String
 
   def count_sentences
     
-    x = [".", "!", "?", "!!", !"..."]
+    x = [".", "!", "?", "!!", "..."]
  
     self.split(Regexp.union(x)).count
   
